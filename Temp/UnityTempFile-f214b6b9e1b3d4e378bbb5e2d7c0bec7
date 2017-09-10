@@ -1,0 +1,166 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp.dll'
+-unsafe
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/nunit.framework.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll'
+-r:'Assets/Obi/Plugins/ObiInstaller.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_5_6_1
+-define:UNITY_5_6
+-define:UNITY_5
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_RUNTIME_NAVMESH_BUILDING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:ENABLE_VIDEO
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_VR
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:CROSS_PLATFORM_INPUT
+'Assets/Iridescence Thin Film/Script/FreeCamera.cs'
+'Assets/Iridescence Thin Film/Script/IridescenceThinFilm.cs'
+'Assets/Obi/Rendering/ObiParticleRenderer.cs'
+'Assets/Obi/Rendering/ShadowmapExposer.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/AutoMoveAndRotate.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/CollisionEventHandler.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/ContactOffsetSetter.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/CrossPlatformInput/Scripts/AxisTouchButton.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/CrossPlatformInput/Scripts/ButtonHandler.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/CrossPlatformInput/Scripts/InputAxisScrollbar.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/CrossPlatformInput/Scripts/Joystick.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/CrossPlatformInput/Scripts/MobileControlRig.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/CrossPlatformInput/Scripts/TiltInput.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/CrossPlatformInput/Scripts/TouchPad.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/CrossPlatformInput/Scripts/VirtualInput.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/FirstPersonLauncher.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/ThirdPersonCharacter.cs'
+'Assets/Obi/Sample Scenes/SampleResources/Scripts/ThirdPersonUserControl.cs'
+'Assets/Obi/Scripts/Actors/ObiActor.cs'
+'Assets/Obi/Scripts/Actors/ObiCloth.cs'
+'Assets/Obi/Scripts/Actors/ObiClothBase.cs'
+'Assets/Obi/Scripts/Actors/ObiEmitter.cs'
+'Assets/Obi/Scripts/Actors/ObiTearableCloth.cs'
+'Assets/Obi/Scripts/Collisions/ObiCollider.cs'
+'Assets/Obi/Scripts/Collisions/ObiColliderGroup.cs'
+'Assets/Obi/Scripts/Collisions/ObiCollisionMaterial.cs'
+'Assets/Obi/Scripts/Collisions/ObiRigidbody.cs'
+'Assets/Obi/Scripts/Constraints/ConstraintBatches/ObiAerodynamicConstraintBatch.cs'
+'Assets/Obi/Scripts/Constraints/ConstraintBatches/ObiBendConstraintBatch.cs'
+'Assets/Obi/Scripts/Constraints/ConstraintBatches/ObiConstraintBatch.cs'
+'Assets/Obi/Scripts/Constraints/ConstraintBatches/ObiDistanceConstraintBatch.cs'
+'Assets/Obi/Scripts/Constraints/ConstraintBatches/ObiPinConstraintBatch.cs'
+'Assets/Obi/Scripts/Constraints/ConstraintBatches/ObiSkinConstraintBatch.cs'
+'Assets/Obi/Scripts/Constraints/ConstraintBatches/ObiTetherConstraintBatch.cs'
+'Assets/Obi/Scripts/Constraints/ConstraintBatches/ObiVolumeConstraintBatch.cs'
+'Assets/Obi/Scripts/Constraints/ObiAerodynamicConstraints.cs'
+'Assets/Obi/Scripts/Constraints/ObiBatchedConstraints.cs'
+'Assets/Obi/Scripts/Constraints/ObiBendingConstraints.cs'
+'Assets/Obi/Scripts/Constraints/ObiConstraints.cs'
+'Assets/Obi/Scripts/Constraints/ObiDistanceConstraints.cs'
+'Assets/Obi/Scripts/Constraints/ObiPinConstraints.cs'
+'Assets/Obi/Scripts/Constraints/ObiSkinConstraints.cs'
+'Assets/Obi/Scripts/Constraints/ObiTetherConstraints.cs'
+'Assets/Obi/Scripts/Constraints/ObiVolumeConstraints.cs'
+'Assets/Obi/Scripts/Coroutines/CoroutineJob.cs'
+'Assets/Obi/Scripts/Coroutines/EditorCoroutine.cs'
+'Assets/Obi/Scripts/DataStructures/ObiMeshTopology.cs'
+'Assets/Obi/Scripts/DataStructures/ObiParticleCache.cs'
+'Assets/Obi/Scripts/DataStructures/ObiTriangleSkinMap.cs'
+'Assets/Obi/Scripts/Emitter/ObiEmitterMaterial.cs'
+'Assets/Obi/Scripts/Emitter/ObiEmitterShape.cs'
+'Assets/Obi/Scripts/InspectorButtonAttribute.cs'
+'Assets/Obi/Scripts/Oni.cs'
+'Assets/Obi/Scripts/Solver/IObiSolverClient.cs'
+'Assets/Obi/Scripts/Solver/ObiArbiter.cs'
+'Assets/Obi/Scripts/Solver/ObiSolver.cs'
+'Assets/Obi/Scripts/Solver/ObiSolverData.cs'
+'Assets/Obi/Scripts/Utils/Forces/ObiAmbientForceZone.cs'
+'Assets/Obi/Scripts/Utils/Forces/ObiExternalForce.cs'
+'Assets/Obi/Scripts/Utils/Forces/ObiSphericalForceZone.cs'
+'Assets/Obi/Scripts/Utils/ObiClothDragger.cs'
+'Assets/Obi/Scripts/Utils/ObiClothPicker.cs'
+'Assets/Obi/Scripts/Utils/ObiClothProxy.cs'
+'Assets/Obi/Scripts/Utils/ObiParticleBaker.cs'
+'Assets/Obi/Scripts/Utils/ObiParticleHandle.cs'
+'Assets/Obi/Scripts/Utils/ObiProfiler.cs'
+'Assets/Obi/Scripts/Utils/ObiUtils.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll'
+-sdk:unity

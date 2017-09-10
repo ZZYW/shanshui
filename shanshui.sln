@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shanshui", "shanshui.csproj", "{D42BE030-B876-2217-DC43-1517F7BB11CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shanshui.Editor", "shanshui.Editor.csproj", "{3DBDC6FF-438B-4B61-504F-EAF9B64C14E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D42BE030-B876-2217-DC43-1517F7BB11CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42BE030-B876-2217-DC43-1517F7BB11CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42BE030-B876-2217-DC43-1517F7BB11CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42BE030-B876-2217-DC43-1517F7BB11CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DBDC6FF-438B-4B61-504F-EAF9B64C14E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBDC6FF-438B-4B61-504F-EAF9B64C14E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBDC6FF-438B-4B61-504F-EAF9B64C14E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBDC6FF-438B-4B61-504F-EAF9B64C14E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

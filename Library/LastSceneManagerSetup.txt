@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/obi_cloth_with_iridescent.unity
+  isLoaded: 1
+  isActive: 1
